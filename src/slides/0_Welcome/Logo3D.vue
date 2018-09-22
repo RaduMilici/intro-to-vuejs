@@ -24,6 +24,7 @@ import {
   MESH_SCALE,
   CAMERA_DATA
 } from "./const";
+import { updateParticles, pointCloud, linesMesh } from "./Particles";
 
 export default {
   name: "Logo3D",
@@ -31,7 +32,8 @@ export default {
     return {
       camera: null,
       scene: new Scene(),
-      renderer: new WebGLRenderer({ alpha: true }),
+      particleScene: new Scene(),
+      renderer: new WebGLRenderer({ alpha: true, autoClear: false }),
       loader: new JSONLoader(),
       dummy: new Object3D()
     };
@@ -47,8 +49,10 @@ export default {
       );
       this.camera.position.copy(CAMERA_DATA.position);
       this.renderer.setSize(clientWidth, clientHeight);
+      this.renderer.autoClear = false;
       this.$refs.webGlContainer.appendChild(this.renderer.domElement);
       this.scene.add(this.dummy);
+      this.particleScene.add(linesMesh, pointCloud);
     },
     addLights() {
       POINT_LIGHTS_DATA.forEach(
@@ -82,8 +86,12 @@ export default {
     },
     render() {
       requestAnimationFrame(this.render);
-      this.dummy.rotation.y += ROTATION_SPEED;
+      this.renderer.clear();
+      this.renderer.render(this.particleScene, this.camera);
+      this.renderer.clearDepth();
       this.renderer.render(this.scene, this.camera);
+      updateParticles();
+      this.dummy.rotation.y += ROTATION_SPEED;
     }
   },
   mounted() {

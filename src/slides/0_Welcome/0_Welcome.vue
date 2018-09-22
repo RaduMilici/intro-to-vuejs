@@ -1,5 +1,5 @@
 <template>
-    <Slide background-color="#335378">
+    <Slide background-color="#000">
         <ChapterTitle text="intro to Vue.js"/>
         <Logo3D/>
     </Slide>
