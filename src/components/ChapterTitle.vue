@@ -1,6 +1,6 @@
 <template>
-    <div class="chapter-text">
-        <h1>{{text}}</h1>
+    <div class="title">
+        <span>{{text}}</span>
     </div>
 </template>
 
@@ -19,14 +19,15 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/abstracts/mixins.scss";
 
-.chapter-text {
+.title {
   @extend %text-outline;
   width: 100%;
   position: absolute;
   text-align: center;
   align-self: center;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 3.2em;
+  font-size: 120px;
+  font-weight: 200;
   color: #fff;
 }
 </style>

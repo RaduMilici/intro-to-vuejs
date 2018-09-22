@@ -19,10 +19,8 @@ export default {
 <style scoped>
 .slide__container {
   display: flex;
-  position: relative;
-  height: 90%;
-  width: 95%;
-  border-radius: 15px;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
 }
 </style>
