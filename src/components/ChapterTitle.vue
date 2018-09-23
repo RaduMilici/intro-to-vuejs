@@ -29,5 +29,6 @@ export default {
   font-size: 120px;
   font-weight: 200;
   color: #fff;
+  user-select: none;
 }
 </style>

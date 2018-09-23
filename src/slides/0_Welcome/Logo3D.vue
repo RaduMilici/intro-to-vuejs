@@ -33,7 +33,11 @@ export default {
       camera: null,
       scene: new Scene(),
       particleScene: new Scene(),
-      renderer: new WebGLRenderer({ alpha: true, autoClear: false }),
+      renderer: new WebGLRenderer({
+        alpha: true,
+        autoClear: false,
+        antialias: true
+      }),
       loader: new JSONLoader(),
       dummy: new Object3D()
     };
@@ -86,12 +90,11 @@ export default {
     },
     render() {
       requestAnimationFrame(this.render);
-      this.renderer.clear();
+      updateParticles();
+      this.dummy.rotation.y += ROTATION_SPEED;
       this.renderer.render(this.particleScene, this.camera);
       this.renderer.clearDepth();
       this.renderer.render(this.scene, this.camera);
-      updateParticles();
-      this.dummy.rotation.y += ROTATION_SPEED;
     }
   },
   mounted() {
