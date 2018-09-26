@@ -9,7 +9,7 @@ import { Slide } from "../../components";
 import { slideUrl } from "./const";
 
 export default {
-  name: "History",
+  name: "Timeline",
   components: {
     Slide
   },

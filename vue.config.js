@@ -1,15 +1,17 @@
 module.exports = {
-  module: {
-    rules: [
-      {
-        test: /\.(png|jpg|gif|obj)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {}
-          }
-        ]
-      }
-    ]
+  configureWebpack: {
+    module: {
+      rules: [
+        {
+          test: /\.(png|jpg|gif|obj|mtl|gltf)$/,
+          use: [
+            {
+              loader: "file-loader",
+              options: {}
+            }
+          ]
+        }
+      ]
+    }
   }
 };

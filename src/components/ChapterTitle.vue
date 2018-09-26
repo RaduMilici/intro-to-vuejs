@@ -25,7 +25,6 @@ export default {
   position: absolute;
   text-align: center;
   align-self: center;
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 120px;
   font-weight: 200;
   color: #fff;

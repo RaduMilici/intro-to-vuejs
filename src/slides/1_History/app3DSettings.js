@@ -6,9 +6,8 @@ const APP_3D_SETTINGS = {
     far: 150
   },
   renderer: {
-    width: window.innerWidth,
-    height: window.innerHeight,
-    antialias: false
+    antialias: false,
+    alpha: false
   }
 };
 

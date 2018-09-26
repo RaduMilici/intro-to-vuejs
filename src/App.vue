@@ -11,7 +11,7 @@ export default {
   data() {
     return {
       slides,
-      slideIndex: 0
+      slideIndex: 1
     };
   },
   computed: {
@@ -23,6 +23,12 @@ export default {
 </script>
 
 <style>
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+</style>
+
+<style scoped>
 .app__container {
   height: 100vh;
   display: flex;

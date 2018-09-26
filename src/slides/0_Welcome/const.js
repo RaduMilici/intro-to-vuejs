@@ -1,6 +1,6 @@
 import { Vector3, SmoothShading } from "three";
 
-const ROTATION_SPEED = 0.002;
+const ROTATION_SPEED = 0.1;
 const MESH_SCALE = new Vector3(2, 2, 2);
 const CAMERA_DATA = {
   fov: 50,

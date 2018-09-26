@@ -10,7 +10,7 @@ import {
   LineSegments
 } from "three";
 import { randomFloat } from "../../util";
-import { Component } from 'pulsar-pathfinding';
+import { Component } from "pulsar-pathfinding";
 
 export default class Particles extends Component {
   constructor() {
@@ -19,7 +19,7 @@ export default class Particles extends Component {
     this.PARTICLE_COUNT = 50;
     this.MAX_PARTICLE_COUNT = 500;
     this.SIDE = 7;
-    this.HALF_SIDE = SIDE / 2;
+    this.HALF_SIDE = this.SIDE / 2;
     this.MIN_VELOCITY = -0.005;
     this.MAX_VELOCITY = 0.005;
 
@@ -54,7 +54,10 @@ export default class Particles extends Component {
       "position",
       new BufferAttribute(this.positions, 3).setDynamic(true)
     );
-    geometry.addAttribute("color", new BufferAttribute(colors, 3).setDynamic(true));
+    geometry.addAttribute(
+      "color",
+      new BufferAttribute(this.colors, 3).setDynamic(true)
+    );
     geometry.computeBoundingSphere();
     geometry.setDrawRange(0, 0);
     this.linesMesh = new LineSegments(geometry, this.lineMaterial);
@@ -76,12 +79,13 @@ export default class Particles extends Component {
     }
   }
 
-  update(tickData) {
+  update() {
     let vertexPos = 0;
     let colorPos = 0;
     let numConnected = 0;
 
-    for (let i = 0; i < this.PARTICLE_COUNT; i++) this.particlesData[i].numConnections = 0;
+    for (let i = 0; i < this.PARTICLE_COUNT; i++)
+      this.particlesData[i].numConnections = 0;
 
     for (let i = 0; i < this.PARTICLE_COUNT; i++) {
       // get the particle
@@ -107,9 +111,12 @@ export default class Particles extends Component {
       // Check collision
       for (let j = i + 1; j < this.PARTICLE_COUNT; j++) {
         const particleDataB = this.particlesData[j];
-        const dx = this.particlePositions[i * 3] - this.particlePositions[j * 3];
-        const dy = this.particlePositions[i * 3 + 1] - this.particlePositions[j * 3 + 1];
-        const dz = this.particlePositions[i * 3 + 2] - this.particlePositions[j * 3 + 2];
+        const dx =
+          this.particlePositions[i * 3] - this.particlePositions[j * 3];
+        const dy =
+          this.particlePositions[i * 3 + 1] - this.particlePositions[j * 3 + 1];
+        const dz =
+          this.particlePositions[i * 3 + 2] - this.particlePositions[j * 3 + 2];
         const dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
         if (dist < this.MIN_DISTANCE) {
           particleData.numConnections++;
@@ -121,12 +128,12 @@ export default class Particles extends Component {
           this.positions[vertexPos++] = this.particlePositions[j * 3];
           this.positions[vertexPos++] = this.particlePositions[j * 3 + 1];
           this.positions[vertexPos++] = this.particlePositions[j * 3 + 2];
-          colors[colorPos++] = alpha;
-          colors[colorPos++] = alpha;
-          colors[colorPos++] = alpha;
-          colors[colorPos++] = alpha;
-          colors[colorPos++] = alpha;
-          colors[colorPos++] = alpha;
+          this.colors[colorPos++] = alpha;
+          this.colors[colorPos++] = alpha;
+          this.colors[colorPos++] = alpha;
+          this.colors[colorPos++] = alpha;
+          this.colors[colorPos++] = alpha;
+          this.colors[colorPos++] = alpha;
           numConnected++;
         }
       }

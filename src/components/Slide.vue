@@ -1,16 +1,22 @@
 <template>
-    <div class="slide__container" :style="{backgroundColor}">
+    <div class="slide__container" :style="{color, backgroundColor}">
       <slot></slot>
     </div>
 </template>
 
 <script>
+import { theme } from "../assets/themes";
+
 export default {
   name: "Slide",
   props: {
+    color: {
+      type: String,
+      default: theme.color
+    },
     backgroundColor: {
       type: String,
-      default: "#fff"
+      default: theme.background
     }
   }
 };
