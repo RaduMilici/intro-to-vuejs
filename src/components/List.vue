@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="list-container">
         <h1>{{ title }}</h1>
         <ul>
             <li v-for="item in items" :key="item">
@@ -26,4 +26,18 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+  font-size: 4rem;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.5rem;
+}
+
+li:not(:first-child) {
+  margin: 15px 0;
+}
 </style>

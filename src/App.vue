@@ -23,6 +23,12 @@ export default {
 </script>
 
 <style>
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
 body {
   font-family: "Source Sans Pro", sans-serif;
 }
