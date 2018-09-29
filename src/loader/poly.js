@@ -17,7 +17,7 @@ const load = id => {
   }`;
 
   return new Promise(resolve => {
-    get(url, async (error, response, body) => {
+    get(url, (error, response, body) => {
       resolve(JSON.parse(body));
     });
   });

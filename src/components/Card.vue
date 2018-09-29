@@ -1,6 +1,6 @@
 <template>
-    <div class="card__container">
-        <div class="card" :style="styles">
+    <div class="card__container" :style="containerStyles">
+        <div class="card" :style="cardStyles">
             <slot></slot>
         </div>
     </div>
@@ -10,6 +10,9 @@
 import { theme } from "../assets/themes";
 
 const TRANSPARENT_OPACITY = 0.9;
+const SMALL_WIDTH = "40%";
+const NORMAL_WIDTH = "80%";
+const POSITIONS = ["left", "right", "top", "bottom", "center"];
 
 export default {
   name: "Card",
@@ -18,19 +21,55 @@ export default {
       type: Boolean,
       default: false
     },
+    small: {
+      type: Boolean,
+      default: false
+    },
     column: {
       type: Boolean,
       default: false
+    },
+    position: {
+      type: String,
+      validator(value) {
+        return POSITIONS.indexOf(value) !== -1;
+      }
     }
   },
   computed: {
-    styles() {
+    cardStyles() {
       return {
         backgroundColor: theme.background,
-        border: `3px solid ${theme.color}`,
+        border: `1px solid ${theme.primary}`,
         opacity: this.transparent ? TRANSPARENT_OPACITY : 1,
-        flexDirection: this.column ? 'column' : 'row'
+        width: this.small ? SMALL_WIDTH : NORMAL_WIDTH,
+        flexDirection: this.column ? "column" : "row"
       };
+    },
+    containerStyles() {
+      let justifyContent;
+      let alignItems;
+
+      switch (this.position) {
+        case "left":
+          justifyContent = "flex-start";
+          break;
+        case "right":
+          justifyContent = "flex-end";
+          break;
+        case "top":
+          alignItems = "flex-start";
+          break;
+        case "bottom":
+          alignItems = "flex-end";
+          break;
+        case "center":
+        default:
+          justifyContent = "center";
+          alignItems = "center";
+      }
+
+      return { justifyContent, alignItems };
     }
   }
 };
@@ -38,14 +77,12 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-  width: 80%;
-  height: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 4rem;
-    overflow: auto;
+  overflow: auto;
 
   &__container {
     height: 100%;

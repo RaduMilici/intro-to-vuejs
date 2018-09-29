@@ -12,7 +12,7 @@ export default {
   props: {
     color: {
       type: String,
-      default: theme.color
+      default: theme.primary
     },
     backgroundColor: {
       type: String,

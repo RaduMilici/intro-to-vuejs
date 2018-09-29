@@ -1,10 +1,4 @@
-import {
-  AmbientLight,
-  Line,
-  LineBasicMaterial,
-  Geometry,
-  Vector3
-} from "three";
+import { AmbientLight, Line, LineBasicMaterial, Geometry } from "three";
 import {
   SERVER_POSITION,
   SERVER_SCALE,
@@ -12,28 +6,27 @@ import {
   PC_MESH_ID,
   SERVER_MESH_ID,
   LINE_COLOR,
-  CAMERA_POSITION
+  CAMERA_POSITION,
+  PC_POSITION,
+  PC_CABLE_POSITION
 } from "./const";
 import App3D from "fast-threejs-app";
 import APP_3D_SETTINGS from "./app3DSettings";
-import loadMesh from "../../load";
+import loadMesh from "../../loader/load";
 
 export default class Scene {
-  constructor() {
-    this.pcPositions = [];
-  }
-
   setup() {
     this.app3D = new App3D(APP_3D_SETTINGS);
     this.app3D.camera.position.copy(CAMERA_POSITION);
     this.app3D.scene.add(new AmbientLight(0xffffff));
-    this.app3D.start();
   }
 
   async loadPC() {
     const mesh = await loadMesh(PC_MESH_ID);
     mesh.scale.copy(PC_SCALE);
-    this.clonePC(mesh);
+    mesh.position.copy(PC_POSITION);
+    mesh.rotation.set(0, Math.PI, -0.06);
+    this.app3D.scene.add(mesh);
   }
 
   async loadServer() {
@@ -44,27 +37,11 @@ export default class Scene {
     this.app3D.scene.add(mesh);
   }
 
-  clonePC(mesh) {
-    const step = 3;
-    for (let i = -step; i <= step; i += step) {
-      const clone = mesh.clone();
-      const pos = new Vector3(-6, i, 0);
-      clone.position.copy(pos);
-      clone.rotation.set(0, Math.PI, -0.06);
-      this.app3D.scene.add(clone);
-      this.pcPositions.push(pos);
-    }
-  }
-
-  makeLines() {
+  makeLine() {
     const geometry = new Geometry();
-    this.pcPositions.forEach(pos => {
-      geometry.vertices.push(pos, SERVER_POSITION);
-    });
-    const line = new Line(
-      geometry,
-      new LineBasicMaterial({ color: LINE_COLOR })
-    );
+    const material = new LineBasicMaterial({ color: LINE_COLOR });
+    geometry.vertices.push(PC_CABLE_POSITION, SERVER_POSITION);
+    const line = new Line(geometry, material);
     this.app3D.scene.add(line);
   }
 }

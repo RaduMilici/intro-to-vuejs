@@ -43,7 +43,7 @@ export default {
       this.app3D = new App3D(APP_3D_SETTINGS);
       this.app3D.camera.position.copy(CAMERA_DATA.position);
       this.app3D.renderer.autoClear = false;
-      this.app3D.add(this.dummy);
+      this.app3D.scene.add(this.dummy);
       this.app3D.start();
       const particles = new Particles();
       this.app3D.add(particles);
@@ -60,14 +60,14 @@ export default {
         ({ color, intensity, distance, decay, position }) => {
           const light = new PointLight(color, intensity, distance, decay);
           light.position.copy(position);
-          this.app3D.add(light);
+          this.app3D.scene.add(light);
         }
       );
       const ambient = new AmbientLight(
         AMBIENT_LIGHT_DATA.color,
         AMBIENT_LIGHT_DATA.intensity
       );
-      this.app3D.add(ambient);
+      this.app3D.scene.add(ambient);
     },
     loadMeshes() {
       const topMesh = new Mesh(
@@ -95,7 +95,7 @@ export default {
     this.loadMeshes();
   },
   beforeDestroy() {
-    this.App3D.stop();
+    this.app3D.stop();
   }
 };
 </script>

@@ -1,5 +1,6 @@
-import { OBJLoader, MTLLoader } from "three-full";
+import { OBJLoader, MTLLoader, Group } from "three-full";
 import { get } from "request";
+import { Geometry, Mesh } from "three";
 
 class MeshLoader {
   constructor(meshData) {
@@ -38,8 +39,16 @@ class MeshLoader {
     const mtl = this.MTLLoader.parse(mtlData);
     this.OBJLoader.setMaterials(mtl);
 
-    const mesh = this.OBJLoader.parse(objData);
-    return mesh;
+    const dummy = new Group();
+    const obj = this.OBJLoader.parse(objData);
+
+    obj.children.forEach(({ geometry, material }) => {
+      const normalGeometry = new Geometry().fromBufferGeometry(geometry);
+      const mesh = new Mesh(normalGeometry, material);
+      dummy.add(mesh);
+    });
+
+    return dummy;
   }
 }
 

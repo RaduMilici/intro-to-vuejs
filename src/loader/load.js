@@ -4,8 +4,7 @@ import MeshLoader from "./MeshLoader";
 const loadModel = async id => {
   const meshData = await load(id);
   const loader = new MeshLoader(meshData);
-  const mesh = await loader.load();
-  return mesh;
+  return await loader.load();
 };
 
 export default loadModel;
