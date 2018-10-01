@@ -1,7 +1,9 @@
 <template>
     <Slide>
         <Card>
-            <List title="What is Vue.js?" :items="list"/>
+            <div>
+                <List title="What is Vue.js?" :items="list"/>
+            </div>
             <!--<iframe :src="FIRST_VUE_IFRAME_SRC" :style="IFRAME_STYLE" :sandbox="IFRAME_SANDBOX"></iframe>-->
         </Card>
     </Slide>
@@ -25,13 +27,13 @@ export default {
       IFRAME_SANDBOX,
       IFRAME_STYLE,
       list: [
-        "A progressive framework for building user interfaces.",
-        "Designed from the ground up to be incrementally adoptable.",
-        "Also perfectly capable of powering sophisticated Single-Page Applications.",
-        "Can be used in combination with modern tooling and supporting libraries."
+        "Just JavaScript",
+        "A framework for building user interfaces",
+        "Designed from the ground up to be incrementally adoptable",
+        "Perfectly capable of powering sophisticated Single-Page Applications",
+        "Can be used in combination with modern tooling and supporting libraries"
       ]
     };
   }
 };
 </script>
-

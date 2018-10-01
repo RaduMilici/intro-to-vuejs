@@ -5,6 +5,8 @@ import Timeline from "./2_Timeline/2_Timeline";
 import WhatIsVueTitle from "./ChapterTitles/2_What_is_Vue";
 import WhatIsVue from "./3_What_is_vue/3_What_is_vue";
 import WhatIsVueWarn from "./3_What_is_vue/3_1_warning";
+import Installation from "./3_What_is_vue/3_2_Installation";
+import FirstApp from "./3_What_is_vue/3_3_first_app";
 
 const slides = [
   Welcome,
@@ -14,6 +16,8 @@ const slides = [
   WhatIsVueTitle,
   WhatIsVueWarn,
   WhatIsVue,
+  Installation,
+  FirstApp
 ];
 
 export default slides;
