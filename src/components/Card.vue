@@ -39,7 +39,7 @@ export default {
   computed: {
     cardStyles() {
       return {
-        backgroundColor: theme.background,
+        backgroundColor: theme.backgroundLite,
         border: `1px solid ${theme.primary}`,
         opacity: this.transparent ? TRANSPARENT_OPACITY : 1,
         width: this.small ? SMALL_WIDTH : NORMAL_WIDTH,
@@ -82,7 +82,9 @@ export default {
   align-items: center;
   border-radius: 5px;
   padding: 4rem;
+    font-size: 3rem;
   overflow: auto;
+  box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);
 
   &__container {
     height: 100%;

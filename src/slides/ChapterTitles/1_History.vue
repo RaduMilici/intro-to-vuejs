@@ -1,13 +1,14 @@
 <template>
-    $END$
+    <ChapterTitle3D title="chapter 1: A bit of history"/>
 </template>
 
 <script>
-  export default {
-    name: "1_History"
+import ChapterTitle3D from "./ChapterTitle3D";
+
+export default {
+  name: "History",
+  components: {
+    ChapterTitle3D
   }
+};
 </script>
-
-<style scoped>
-
-</style>

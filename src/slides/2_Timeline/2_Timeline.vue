@@ -1,7 +1,5 @@
 <template>
-    <Slide>
-        <iframe class="slide-iframe" :src='slideUrl' width='100%' height='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
-    </Slide>
+    <iframe class="slide-iframe" :src='slideUrl' width='100%' height='100%' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 </template>
 
 <script>

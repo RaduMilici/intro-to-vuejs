@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       slides,
-      slideIndex: 0
+      slideIndex: slides.length - 1
     };
   },
   components: {
@@ -57,6 +57,7 @@ html {
 }
 body {
   font-family: "Source Sans Pro", sans-serif;
+  font-weight: 200;
 }
 </style>
 

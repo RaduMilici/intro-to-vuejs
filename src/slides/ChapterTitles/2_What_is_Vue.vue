@@ -1,13 +1,14 @@
 <template>
-    $END$
+    <ChapterTitle3D title="chapter 2: What is Vue.js?"/>
 </template>
 
 <script>
-  export default {
-    name: "2_What_is_Vue"
+import ChapterTitle3D from "./ChapterTitle3D";
+
+export default {
+  name: "History",
+  components: {
+    ChapterTitle3D
   }
+};
 </script>
-
-<style scoped>
-
-</style>
