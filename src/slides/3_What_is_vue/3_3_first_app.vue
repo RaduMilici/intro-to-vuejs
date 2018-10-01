@@ -10,29 +10,29 @@
 </template>
 
 <script>
-  import { Slide, Card, List } from "../../components";
-  import { FIRST_VUE_IFRAME_SRC, IFRAME_SANDBOX, IFRAME_STYLE } from "./const";
+import { Slide, Card, List } from "../../components";
+import { FIRST_VUE_IFRAME_SRC, IFRAME_SANDBOX, IFRAME_STYLE } from "./const";
 
-  export default {
-    name: "first_app",
-    components: {
-      Slide,
-      Card,
-      List
-    },
-    data() {
-      return {
-        FIRST_VUE_IFRAME_SRC,
-        IFRAME_SANDBOX,
-        IFRAME_STYLE,
-        list: [
-          "Just JavaScript",
-          "A framework for building user interfaces",
-          "Designed from the ground up to be incrementally adoptable",
-          "Perfectly capable of powering sophisticated Single-Page Applications",
-          "Can be used in combination with modern tooling and supporting libraries"
-        ]
-      };
-    }
-  };
+export default {
+  name: "first_app",
+  components: {
+    Slide,
+    Card,
+    List
+  },
+  data() {
+    return {
+      FIRST_VUE_IFRAME_SRC,
+      IFRAME_SANDBOX,
+      IFRAME_STYLE,
+      list: [
+        "Just JavaScript",
+        "A framework for building user interfaces",
+        "Designed from the ground up to be incrementally adoptable",
+        "Perfectly capable of powering sophisticated Single-Page Applications",
+        "Can be used in combination with modern tooling and supporting libraries"
+      ]
+    };
+  }
+};
 </script>
