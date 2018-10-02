@@ -1,5 +1,5 @@
 <template>
-    <ChapterTitle3D title="chapter 2: What is Vue.js?"/>
+    <ChapterTitle3D title="2: What is Vue.js?"/>
 </template>
 
 <script>

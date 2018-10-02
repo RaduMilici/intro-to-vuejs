@@ -58,7 +58,11 @@ html {
 body {
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 200;
+  overflow: hidden;
 }
+ul {
+   list-style-type: circle;
+ }
 </style>
 
 <style scoped>

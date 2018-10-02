@@ -43,7 +43,7 @@
 import { Slide, Card, List, Button } from "../../components";
 import { theme } from "../../assets/themes";
 export default {
-  name: "3_2_installation",
+  name: "installation",
   components: {
     Slide,
     Card,

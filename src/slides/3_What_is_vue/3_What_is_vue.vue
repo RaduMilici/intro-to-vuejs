@@ -4,7 +4,6 @@
             <div>
                 <List title="What is Vue.js?" :items="list"/>
             </div>
-            <!--<iframe :src="FIRST_VUE_IFRAME_SRC" :style="IFRAME_STYLE" :sandbox="IFRAME_SANDBOX"></iframe>-->
         </Card>
     </Slide>
 </template>
