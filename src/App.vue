@@ -61,8 +61,8 @@ body {
   overflow: hidden;
 }
 ul {
-   list-style-type: circle;
- }
+  list-style-type: circle;
+}
 </style>
 
 <style scoped>
