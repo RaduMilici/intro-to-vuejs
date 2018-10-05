@@ -27,14 +27,20 @@ export default {
 
 <style scoped>
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+li {
+  font-size: 4.5rem;
 }
 .list-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 
 li:not(:first-child) {

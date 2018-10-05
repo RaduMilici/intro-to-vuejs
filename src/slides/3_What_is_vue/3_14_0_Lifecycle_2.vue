@@ -1,17 +1,19 @@
 <template>
-    <ListCard title="the Vue instance" :items="items"/>
+    <ImageCard title="destroy hooks" :src="LIFECYCLE_3_IMG_SRC"/>
 </template>
 
 <script>
-import { ListCard } from "../../components";
+import { ImageCard } from "../../components";
+import { LIFECYCLE_3_IMG_SRC } from "./const";
 
 export default {
-  name: "vue_instance",
+  name: "Lifecycle_1",
   components: {
-    ListCard
+    ImageCard
   },
   data() {
     return {
+      LIFECYCLE_3_IMG_SRC,
       items: [
         "new Vue()",
         "takes an options object",

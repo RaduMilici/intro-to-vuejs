@@ -1,17 +1,19 @@
 <template>
-    <ListCard title="the Vue instance" :items="items"/>
+    <ImageCard title="Vue is a constructor function" :src="VUE_FUNCTION_IMG_SRC"/>
 </template>
 
 <script>
-import { ListCard } from "../../components";
+import { ImageCard } from "../../components";
+import { VUE_FUNCTION_IMG_SRC } from "./const";
 
 export default {
   name: "vue_instance",
   components: {
-    ListCard
+    ImageCard
   },
   data() {
     return {
+      VUE_FUNCTION_IMG_SRC,
       items: [
         "new Vue()",
         "takes an options object",

@@ -1,10 +1,7 @@
 <template>
     <Slide>
         <Card>
-            <div>
-                <List :title="title" :items="items"/>
-                <slot></slot>
-            </div>
+            <slot></slot>
         </Card>
     </Slide>
 </template>
@@ -12,16 +9,12 @@
 <script>
 import Slide from "./Slide";
 import Card from "./Card";
-import List from "./List";
-import Button from "./Button";
 
 export default {
-  name: "ListCard",
+  name: "CardSlide",
   components: {
     Slide,
-    Card,
-    List,
-    Button
+    Card
   },
   props: {
     title: {

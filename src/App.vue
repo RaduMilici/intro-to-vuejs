@@ -60,6 +60,11 @@ body {
   font-weight: 200;
   overflow: hidden;
 }
+h1 {
+  font-size: 5rem;
+  font-weight: 400;
+  margin: 0;
+}
 ul {
   list-style-type: circle;
 }

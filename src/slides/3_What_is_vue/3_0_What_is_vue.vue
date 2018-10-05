@@ -26,11 +26,11 @@ export default {
       IFRAME_SANDBOX,
       IFRAME_STYLE,
       list: [
-        "Just JavaScript",
-        "A framework for building user interfaces",
-        "Designed from the ground up to be incrementally adoptable",
-        "Perfectly capable of powering sophisticated Single-Page Applications",
-        "Can be used in combination with modern tooling and supporting libraries"
+        "just JavaScript",
+        "framework for building user interfaces",
+        "designed to be incrementally adoptable",
+        "capable of sophisticated Single-Page Applications",
+        "can be used in combination with modern tooling"
       ]
     };
   }

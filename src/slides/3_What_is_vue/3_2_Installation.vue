@@ -59,6 +59,9 @@ export default {
 </script>
 
 <style>
+li {
+  font-size: 3.5rem;
+}
 li:not(:first-child) {
   margin: 25px 0;
 }
