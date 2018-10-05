@@ -1,5 +1,5 @@
 <template>
-    <ListCard title="lifecycle hooks" :items="items"/>
+    <ListCard title="🔥 lifecycle hooks bonus 🔥" :items="items"/>
 </template>
 
 <script>

@@ -15,7 +15,7 @@ export default {
     return {
       items: [
         "properties in 'data' object added to Vue’s reactivity system",
-        "when they change, the view will “react”"
+        'when they change, the view will "react"'
       ]
     };
   }
