@@ -6,9 +6,11 @@ import Button from "./Button";
 import CodeView from "./CodeView";
 import ListCard from "./ListCard";
 import Warning from "./Warning";
+import Info from "./Info";
 import WarningCard from "./WarningCard";
 import CardSlide from "./CardSlide";
 import ImageCard from "./ImageCard";
+import InfoCard from "./InfoCard";
 
 export {
   ChapterTitle,
@@ -21,5 +23,7 @@ export {
   Warning,
   WarningCard,
   CardSlide,
-  ImageCard
+  ImageCard,
+  Info,
+  InfoCard
 };

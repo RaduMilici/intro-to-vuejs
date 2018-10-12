@@ -1,12 +1,12 @@
 <template>
-    <ChapterTitle3D title="2: what is Vue.js?"/>
+    <ChapterTitle3D title="5: lifecycle hooks"/>
 </template>
 
 <script>
 import ChapterTitle3D from "./ChapterTitle3D";
 
 export default {
-  name: "History",
+  name: "lifecycle_hooks",
   components: {
     ChapterTitle3D
   }

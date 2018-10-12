@@ -2,18 +2,19 @@
     <div class="warning">
         <div class="warning__sign">
             <div>
-                ⚠️
+                🧐
             </div>
         </div>
         <div>
-            <span>{{ text }}</span>
+            <span v-if="text">{{ text }}</span>
+            <slot></slot>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-  name: "Warning",
+  name: "Info",
   props: {
     text: {
       type: String
@@ -24,7 +25,6 @@ export default {
 
 <style lang="scss" scoped>
 .warning {
-  margin: 0 2rem;
   display: flex;
   border: 1px solid orange;
   padding: 1rem;
@@ -34,9 +34,9 @@ export default {
 
   &__sign {
     width: 25rem;
-    display: flex;
     margin: 0 2rem;
-    font-size: 8.5rem;
+    font-size: 10rem;
+    display: flex;
     justify-content: center;
     align-items: center;
   }

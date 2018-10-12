@@ -17,7 +17,8 @@ export default {
         "both produce the same result? 🤔",
         "remember: computed properties are cached",
         "only re-evaluate when dependencies have changed",
-        "methods ALWAYS run whenever a re-render happens"
+        "methods ALWAYS run when a re-render happens",
+        "methods can receive arguments, computed can't"
       ]
     };
   }
