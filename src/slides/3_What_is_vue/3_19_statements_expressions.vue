@@ -24,7 +24,7 @@
             <li>
                 ❌ flow control (use ternary)
                 <br>
-                <code>
+                <code style="font-size: 0.93em">
                     <span v-html="flow1"></span>
                 </code>
             </li>
@@ -44,8 +44,8 @@ export default {
     return {
       expression1: "{{ number + 1 }}",
       expression2: "{{ ok ? 'YES' : 'NO' }}",
-      statement1: "const num = 10;",
-      flow1: 'if (ok) { return "true"; }'
+      statement1: "{{ const num = 10; }}",
+      flow1: '{{ if (ok) return "true"; }}'
     };
   },
   computed: {

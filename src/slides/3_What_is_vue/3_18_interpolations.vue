@@ -33,7 +33,7 @@
                     <li>
                         raw HTML
                         <br>
-                        (double mustaches interprets the data as text, not HTML)
+                        (double mustaches interprets data as text, not HTML)
                         <br>
                         <code>
                             <span v-html="rawHtmlText"></span>
