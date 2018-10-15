@@ -31,7 +31,10 @@ import TemplateSyntax from "./3_What_is_vue/3_16_TemplateSyntax";
 import Declarative from "./3_What_is_vue/3_17_declarative";
 import Interpolations from "./3_What_is_vue/3_18_interpolations";
 import StatementsExpressions from "./3_What_is_vue/3_19_statements_expressions";
+import InterpolationsCode from "./3_What_is_vue/3_19_2_interpolation_code";
 import xssAttack from "./3_What_is_vue/3_20_xss_attack";
+import ClassStyleTitle from "./ChapterTitles/7_class_style";
+import ClassStyle from "./3_What_is_vue/3_21_classStyle";
 
 const slides = [
   Welcome,
@@ -67,7 +70,10 @@ const slides = [
   Declarative,
   Interpolations,
   StatementsExpressions,
-  xssAttack
+  InterpolationsCode,
+  xssAttack,
+  ClassStyleTitle,
+  ClassStyle
 ];
 
 export default slides;

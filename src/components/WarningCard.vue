@@ -1,5 +1,5 @@
 <template>
-    <CardSlide>
+    <CardSlide width="60%">
         <Warning :text="text"/>
     </CardSlide>
 </template>

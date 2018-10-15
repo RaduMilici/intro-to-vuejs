@@ -11,6 +11,10 @@
                 <code>
                     <span v-html="expression2"></span>
                 </code>
+                <br>
+                <code>
+                    <span v-html="expression3"></span>
+                </code>
             </li>
 
             <li>
@@ -43,7 +47,8 @@ export default {
   data() {
     return {
       expression1: "{{ number + 1 }}",
-      expression2: "{{ ok ? 'YES' : 'NO' }}",
+      expression2: "{{ `welcome ${name}` }}",
+      expression3: "{{ ok ? 'YES' : 'NO' }}",
       statement1: "{{ const num = 10; }}",
       flow1: '{{ if (ok) return "true"; }}'
     };

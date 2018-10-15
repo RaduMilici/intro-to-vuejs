@@ -7,30 +7,35 @@
                 </div>
                 <ul>
                     <li>
-                        direct &lt;script&gt; include
+                        script include
                         <br>
                         <code>
                             &lt;script src="lib/vue.js"&gt;&lt;/script&gt;
                         </code>
                     </li>
                     <li>
-                        CDN (use a specific version number that you can update manually)
+                        CDN
                         <br>
-                        <code style="font-size: 2rem">
+                        <code style="font-size: 2.5rem">
                             &lt;script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"&gt;&lt;/script&gt;
                         </code>
                     </li>
                     <li>
-                        NPM (the recommended method when building large scale applications)
+                        NPM (recommended for large scale apps)
                         <br>
                         <code>npm install vue</code>
                     </li>
                     <li>
                         CLI
                         <br>
-                        <span>Vue provides an official CLI for quickly scaffolding ambitious Single Page Applications.</span>
-                        <br>
-                        <span>It provides batteries-included build setups for a modern frontend workflow.</span>
+                        <ul>
+                            <li>
+                                <span>official CLI for quickly scaffolding Single Page Applications</span>
+                            </li>
+                            <li>
+                                <span>batteries-included setup for a modern frontend workflow</span>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <code></code>
@@ -57,12 +62,3 @@ export default {
   }
 };
 </script>
-
-<style>
-li {
-  font-size: 3.5rem;
-}
-li:not(:first-child) {
-  margin: 25px 0;
-}
-</style>

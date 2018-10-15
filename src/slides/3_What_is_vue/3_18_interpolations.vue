@@ -23,20 +23,20 @@
                     </li>
 
                     <li>
-                        attributes
-                        <br>
-                        <code>
-                            <span v-html="attributesText"></span>
-                        </code>
-                    </li>
-
-                    <li>
                         raw HTML
                         <br>
                         (double mustaches interprets data as text, not HTML)
                         <br>
                         <code>
                             <span v-html="rawHtmlText"></span>
+                        </code>
+                    </li>
+
+                    <li>
+                        attributes (more on this later)
+                        <br>
+                        <code>
+                            <span v-html="attributesText"></span>
                         </code>
                     </li>
                 </ul>
@@ -61,7 +61,7 @@ export default {
     return {
       vhtmlText: "&lt;p&gt;{{ message }}&lt;/p&gt;",
       rawHtmlText: '&lt;p v-html="rawHtml"&gt;&lt;/p&gt;',
-      attributesText: '&lt;p :class="dynamicClass"&gt&lt;/p&gt',
+      attributesText: '&lt;p :class="dynamicClass"&gt;hello!&lt;/p&gt',
       expressionText: "&lt;p&gt;{{ ok ? 'YES' : 'NO' }}&lt;/p&gt;"
     };
   },

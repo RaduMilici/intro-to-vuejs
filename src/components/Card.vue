@@ -11,7 +11,7 @@ import { theme } from "../assets/themes";
 
 const TRANSPARENT_OPACITY = 0.9;
 const SMALL_WIDTH = "40%";
-const NORMAL_WIDTH = "80%";
+const NORMAL_WIDTH = "90%";
 const POSITIONS = ["left", "right", "top", "bottom", "center"];
 
 export default {
@@ -20,6 +20,10 @@ export default {
     transparent: {
       type: Boolean,
       default: false
+    },
+    width: {
+      type: String,
+      default: ""
     },
     small: {
       type: Boolean,
@@ -42,7 +46,8 @@ export default {
         backgroundColor: theme.backgroundLite,
         border: `1px solid ${theme.primary}`,
         opacity: this.transparent ? TRANSPARENT_OPACITY : 1,
-        width: this.small ? SMALL_WIDTH : NORMAL_WIDTH,
+        width: this.width,
+        "max-width": this.small ? SMALL_WIDTH : NORMAL_WIDTH,
         flexDirection: this.column ? "column" : "row"
       };
     },

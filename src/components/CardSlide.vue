@@ -1,6 +1,6 @@
 <template>
     <Slide>
-        <Card>
+        <Card :width="width">
             <slot></slot>
         </Card>
     </Slide>
@@ -19,6 +19,10 @@ export default {
   props: {
     title: {
       type: String
+    },
+    width: {
+      type: String,
+      default: ""
     },
     items: {
       type: Array

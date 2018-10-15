@@ -1,6 +1,6 @@
 <template>
     <Slide>
-        <Card>
+        <Card width="90%">
             <div class="code-view">
                 <h2>{{ title }}</h2>
                 <iframe :src="url" :style="IFRAME_STYLE" :sandbox="IFRAME_SANDBOX"></iframe>
