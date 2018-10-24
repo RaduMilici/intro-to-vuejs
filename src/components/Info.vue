@@ -6,8 +6,8 @@
             </div>
         </div>
         <div>
-            <span v-if="text">{{ text }}</span>
             <slot></slot>
+            <span v-if="text" v-html="text"></span>
         </div>
     </div>
 </template>
@@ -31,6 +31,7 @@ export default {
   color: orange;
   font-size: 4.5rem;
   font-weight: 400;
+  max-width: 100%;
 
   &__sign {
     width: 25rem;

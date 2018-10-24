@@ -18,6 +18,7 @@ export default {
       DYNAMIC_STYLE_IMG_SRC,
       items: [
         "pass an array to <strong>:class</strong> to apply a list of classes",
+        "will render the value of those fields",
         "can use object syntax inside array syntax"
       ]
     };

@@ -12,7 +12,7 @@ export default {
   },
   data() {
     return {
-      warningText: `Dynamically rendering HTML can be very dangerous. It can lead to cross-site scripting (XSS) vulnerabilities. Use HTML interpolation on trusted content and never on user-provided content.`
+      warningText: `Dynamically rendering HTML can be very dangerous.</br></br> It can lead to cross-site scripting (XSS) vulnerabilities. </br></br>Use HTML interpolation on trusted content and never on user-provided content.`
     };
   }
 };

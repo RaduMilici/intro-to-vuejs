@@ -12,7 +12,7 @@ export default {
   },
   data() {
     return {
-      warningText: `Properties in data are only reactive if they existed when the instance was created.
+      warningText: `Properties in data are only reactive if they existed when the instance was created.</br></br>
         Adding properties after that will not trigger any view updates.`
     };
   }

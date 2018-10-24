@@ -6,7 +6,7 @@
             </div>
         </div>
         <div>
-            <span>{{ text }}</span>
+            <span v-html="text"></span>
         </div>
     </div>
 </template>

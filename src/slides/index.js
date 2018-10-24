@@ -37,9 +37,21 @@ import ClassStyleTitle from "./ChapterTitles/7_class_style";
 import ClassStyle from "./3_What_is_vue/3_21_classStyle";
 import ObjectBinding from "./3_What_is_vue/3_22_class_binding";
 import ObjectBindingCode from "./3_What_is_vue/3_33_class_binding_code";
+import InlineTooVerbose from "./3_What_is_vue/3_34_1_inline_class_too_verbose";
 import ComputedBindingCode from "./3_What_is_vue/3_34_computed_class_binding";
 import ArrayClassBinding from "./3_What_is_vue/3_35_array_class_binding";
 import ArrayClassBindingCode from "./3_What_is_vue/3_36_array_class_binding_code";
+import InlineStyleBinding from "./3_What_is_vue/3_37_inline_style_binding";
+import es6InlineStyle from "./3_What_is_vue/3_38_inline_style_es6_shorthand";
+import inlineStyleBindingCode from "./3_What_is_vue/3_39_inline_style_binding_code";
+import inlineStyleBindingVerbose from "./3_What_is_vue/3_40_inline_style_too_verbose";
+import dataStyleCode from "./3_What_is_vue/3_41_data_style_code";
+import autoprefix from "./3_What_is_vue/3_42_autoprefix";
+import conditionalRenderingTitle from "./ChapterTitles/8_conditional_rendering";
+import conditionalRendering from "./3_What_is_vue/3_43_conditional_rendering";
+import vIf from "./3_What_is_vue/3_44_vif";
+import vIfCode from "./3_What_is_vue/3_45_vIf_code";
+import vIfGroup from "./3_What_is_vue/3_46_vif_group";
 
 const slides = [
   Welcome,
@@ -81,9 +93,21 @@ const slides = [
   ClassStyle,
   ObjectBinding,
   ObjectBindingCode,
+  InlineTooVerbose,
   ComputedBindingCode,
   ArrayClassBinding,
-  ArrayClassBindingCode
+  ArrayClassBindingCode,
+  InlineStyleBinding,
+  es6InlineStyle,
+  inlineStyleBindingCode,
+  inlineStyleBindingVerbose,
+  dataStyleCode,
+  autoprefix,
+  conditionalRenderingTitle,
+  conditionalRendering,
+  vIf,
+  vIfCode,
+  vIfGroup
 ];
 
 export default slides;
