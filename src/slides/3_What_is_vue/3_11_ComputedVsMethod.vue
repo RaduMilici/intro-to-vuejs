@@ -15,9 +15,9 @@ export default {
     return {
       items: [
         "both produce the same result? 🤔",
-        "remember: computed properties are cached",
+        "<strong>remember</strong>: computed properties are cached",
         "only re-evaluate when dependencies have changed",
-        "methods ALWAYS run when a re-render happens",
+        "methods <strong>always</strong> run when a re-render happens",
         "methods can receive arguments, computed can't"
       ]
     };

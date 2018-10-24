@@ -14,12 +14,12 @@ export default {
   data() {
     return {
       items: [
-        "beforeCreate: before data observation and events",
-        "✅ created: events and data observation active",
-        "beforeMount: template has been compiled",
-        "✅ mounted: used for fetching data, $el available",
-        "✅ beforeDestroy: you cleanup events, stop actions",
-        "destroyed: component destroyed, events removed",
+        "<strong>beforeCreate</strong>: before data observation and events",
+        "✅ <strong>created</strong>: events and data observation active",
+        "<strong>beforeMount</strong>: template has been compiled",
+        "✅ <strong>mounted</strong>: used for fetching data, $el available",
+        "✅ <strong>beforeDestroy</strong>: you cleanup events, stop actions",
+        "<strong>destroyed</strong>: component destroyed, events removed",
         "more hooks later on"
       ]
     };

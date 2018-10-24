@@ -35,6 +35,11 @@ import InterpolationsCode from "./3_What_is_vue/3_19_2_interpolation_code";
 import xssAttack from "./3_What_is_vue/3_20_xss_attack";
 import ClassStyleTitle from "./ChapterTitles/7_class_style";
 import ClassStyle from "./3_What_is_vue/3_21_classStyle";
+import ObjectBinding from "./3_What_is_vue/3_22_class_binding";
+import ObjectBindingCode from "./3_What_is_vue/3_33_class_binding_code";
+import ComputedBindingCode from "./3_What_is_vue/3_34_computed_class_binding";
+import ArrayClassBinding from "./3_What_is_vue/3_35_array_class_binding";
+import ArrayClassBindingCode from "./3_What_is_vue/3_36_array_class_binding_code";
 
 const slides = [
   Welcome,
@@ -49,6 +54,13 @@ const slides = [
   VueFunction,
   VueInstance,
   FirstApp,
+  TemplateSyntaxTitle,
+  TemplateSyntax,
+  Declarative,
+  Interpolations,
+  StatementsExpressions,
+  InterpolationsCode,
+  xssAttack,
   BasicPropsTitle,
   Data,
   DataWarn,
@@ -65,15 +77,13 @@ const slides = [
   LifecycleHooks_destroy,
   LifecycleHooksCode,
   LifecycleHooks2,
-  TemplateSyntaxTitle,
-  TemplateSyntax,
-  Declarative,
-  Interpolations,
-  StatementsExpressions,
-  InterpolationsCode,
-  xssAttack,
   ClassStyleTitle,
-  ClassStyle
+  ClassStyle,
+  ObjectBinding,
+  ObjectBindingCode,
+  ComputedBindingCode,
+  ArrayClassBinding,
+  ArrayClassBindingCode
 ];
 
 export default slides;

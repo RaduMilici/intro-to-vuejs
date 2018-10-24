@@ -15,9 +15,9 @@ export default {
     return {
       items: [
         "common to want dynamic classes, ids and styles",
-        "all these are attributes",
+        "all these are <strong>attributes</strong>",
         "works great with computed",
-        "can even apply objects and arrays"
+        "can also apply array of classes / styles"
       ]
     };
   }

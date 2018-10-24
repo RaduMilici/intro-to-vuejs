@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       items: [
-        "functions stored in 'computed' object",
+        "functions stored in <strong>computed</strong> object",
         "for complex logic, use a computed property",
         "cached based on their dependencies",
         "will only re-evaluate when dependencies have changed"

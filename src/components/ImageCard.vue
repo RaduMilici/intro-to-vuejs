@@ -3,6 +3,7 @@
         <div class="container">
             <h1>{{ title }}</h1>
             <img :src="src">
+            <slot></slot>
         </div>
     </CardSlide>
 </template>
@@ -40,6 +41,6 @@ img {
 h1 {
   font-size: 5rem;
   font-weight: 400;
-  margin-top: 0;
+  margin: 0;
 }
 </style>

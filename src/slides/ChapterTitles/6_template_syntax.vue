@@ -1,5 +1,5 @@
 <template>
-    <ChapterTitle3D title="6: template syntax"/>
+    <ChapterTitle3D title="4: template syntax"/>
 </template>
 
 <script>

@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       items: [
-        "functions stored in 'methods' object",
+        "functions stored in <strong>methods</strong> object",
         "handle most of the logic",
         "can be called from template or script",
         "work closely with events (more on that later)"

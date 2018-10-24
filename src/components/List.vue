@@ -1,9 +1,9 @@
 <template>
     <div class="list-container">
-        <h1>{{ title }}</h1>
+        <h1 v-if="title">{{ title }}</h1>
         <ul>
             <li v-for="item in items" :key="item">
-                {{ item }}
+                <span v-html="item"></span>
             </li>
         </ul>
     </div>
@@ -15,7 +15,7 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      default: null
     },
     items: {
       type: Array,
@@ -29,6 +29,10 @@ export default {
 h1 {
   font-size: 5rem;
   font-weight: 400;
+  margin: 0 0 5rem 0;
+}
+
+ul {
   margin: 0;
 }
 
@@ -41,6 +45,7 @@ li {
   justify-content: center;
   align-items: center;
   font-size: 4.5rem;
+  text-align: left;
 }
 
 li:not(:first-child) {

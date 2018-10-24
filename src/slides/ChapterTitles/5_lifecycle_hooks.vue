@@ -1,5 +1,5 @@
 <template>
-    <ChapterTitle3D title="5: lifecycle hooks"/>
+    <ChapterTitle3D title="6: lifecycle hooks"/>
 </template>
 
 <script>
