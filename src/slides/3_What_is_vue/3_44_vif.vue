@@ -17,7 +17,7 @@ export default {
     return {
       V_IF_IMG_SRC,
       items: [
-        "it's like an if check directive",
+        "it's like an if statement directive",
         "shows or hides content based on its value",
         "⚠️ has to be attached to a <strong>single element</strong>",
         "events are destroyed and re-created on toggles",

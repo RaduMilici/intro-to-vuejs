@@ -52,6 +52,9 @@ import conditionalRendering from "./3_What_is_vue/3_43_conditional_rendering";
 import vIf from "./3_What_is_vue/3_44_vif";
 import vIfCode from "./3_What_is_vue/3_45_vIf_code";
 import vIfGroup from "./3_What_is_vue/3_46_vif_group";
+import vIfGroupCode from "./3_What_is_vue/3_47_vIf_template_code";
+import vElse from "./3_What_is_vue/3_48_velse_group";
+import vElseCode from "./3_What_is_vue/3_49_vElseCode";
 
 const slides = [
   Welcome,
@@ -107,7 +110,10 @@ const slides = [
   conditionalRendering,
   vIf,
   vIfCode,
-  vIfGroup
+  vIfGroup,
+  vIfGroupCode,
+  vElse,
+  vElseCode
 ];
 
 export default slides;

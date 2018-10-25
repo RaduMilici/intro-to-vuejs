@@ -10,6 +10,7 @@ export const DYNAMIC_INLINE_STYLE_IMG_SRC = "https://i.imgur.com/E58vF9R.png";
 export const ES6_INLINE_STYLE_IMG_SRC = "https://i.imgur.com/JwNnAZe.png";
 export const V_IF_IMG_SRC = "https://i.imgur.com/aediBJS.png";
 export const V_IF_TEMPLATE_IMG_SRC = "https://i.imgur.com/vMcOYKL.png";
+export const V_ELSE_TEMPLATE_IMG_SRC = "https://i.imgur.com/3uvSr8z.png";
 
 export const FIRST_VUE_IFRAME_SRC = `${embed}4lr49kn1vw${params}`;
 export const COMPUTED_VUE_IFRAME_SRC = `${embed}6y2pjmqkm3${params}`;
@@ -23,6 +24,8 @@ export const ARRAY_CLASS_BINDING_IFRAME_SRC = `${embed}wkry5l11p8?fontsize=17&mo
 export const INLINE_STYLE_BINDING_IFRAME_SRC = `${embed}912p60571y?fontsize=16&module=%2Findex.html`;
 export const DATA_STYLE_BINDING_IFRAME_SRC = `${embed}qkm85z1wvq${params}`;
 export const VIF_IFRAME_SRC = `${embed}v8y3qly53y${params}`;
+export const VIF_TEMPLATE_IFRAME_SRC = `${embed}m77q8066x8?fontsize=16&module=%2Findex.html`;
+export const VELSE_TEMPLATE_IFRAME_SRC = `${embed}k516mx8o5?fontsize=16&module=%2Findex.html`;
 export const IFRAME_STYLE =
   "width:100%; height:600px; border:0; border-radius: 4px; overflow:hidden;";
 export const IFRAME_SANDBOX =

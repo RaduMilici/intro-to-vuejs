@@ -2,7 +2,7 @@
     <CardSlide>
         <div class="container">
             <h1>{{ title }}</h1>
-            <img :src="src">
+            <img :style="{maxHeight}" :src="src">
             <slot></slot>
         </div>
     </CardSlide>
@@ -22,6 +22,10 @@ export default {
     },
     src: {
       type: String
+    },
+    maxHeight: {
+      type: String,
+      default: null
     }
   }
 };
