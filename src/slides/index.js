@@ -55,6 +55,7 @@ import vIfGroup from "./3_What_is_vue/3_46_vif_group";
 import vIfGroupCode from "./3_What_is_vue/3_47_vIf_template_code";
 import vElse from "./3_What_is_vue/3_48_velse_group";
 import vElseCode from "./3_What_is_vue/3_49_vElseCode";
+import vElseIf from "./3_What_is_vue/3_50_vElseIf";
 
 const slides = [
   Welcome,
@@ -113,7 +114,8 @@ const slides = [
   vIfGroup,
   vIfGroupCode,
   vElse,
-  vElseCode
+  vElseCode,
+  vElseIf
 ];
 
 export default slides;

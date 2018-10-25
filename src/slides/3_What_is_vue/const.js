@@ -11,6 +11,7 @@ export const ES6_INLINE_STYLE_IMG_SRC = "https://i.imgur.com/JwNnAZe.png";
 export const V_IF_IMG_SRC = "https://i.imgur.com/aediBJS.png";
 export const V_IF_TEMPLATE_IMG_SRC = "https://i.imgur.com/vMcOYKL.png";
 export const V_ELSE_TEMPLATE_IMG_SRC = "https://i.imgur.com/3uvSr8z.png";
+export const V_ELSE_IF_TEMPLATE_IMG_SRC = "https://i.imgur.com/NGTA0Qz.png";
 
 export const FIRST_VUE_IFRAME_SRC = `${embed}4lr49kn1vw${params}`;
 export const COMPUTED_VUE_IFRAME_SRC = `${embed}6y2pjmqkm3${params}`;
