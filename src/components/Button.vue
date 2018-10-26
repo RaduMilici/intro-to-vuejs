@@ -32,6 +32,7 @@ export default {
 
 <style lang="scss" scoped>
 .btn {
+  pointer-events: all;
   border-radius: 5px;
   padding: 1.5rem 2rem;
   font-size: 2rem;

@@ -1,12 +1,12 @@
 <template>
-    <ChapterTitle3D title="1: history"/>
+    <ChapterTitle3D title="10: events"/>
 </template>
 
 <script>
 import ChapterTitle3D from "./ChapterTitle3D";
 
 export default {
-  name: "History",
+  name: "Events",
   components: {
     ChapterTitle3D
   }

@@ -18,8 +18,8 @@ export default {
       V_IF_TEMPLATE_IMG_SRC,
       items: [
         "toggle more than one element? 🤔",
-        "use <strong>&lt;template&gt;</strong>, an invisible wrapper",
-        "final result will not include the <strong>&lt;template&gt;</strong> element"
+        "use <code>&lt;template&gt;</code>, an invisible wrapper",
+        "final result will not include the <code>&lt;template&gt;</code> element"
       ]
     };
   }

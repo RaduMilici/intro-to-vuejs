@@ -13,9 +13,9 @@ export default {
   data() {
     return {
       items: [
-        "new Vue()",
+        "<code>new Vue()</code>",
         "takes an options object",
-        "complex Vue app = root Vue instance + tree of nested components",
+        "complex Vue app = root Vue instance + tree of components",
         "Vue components are also Vue instances"
       ]
     };

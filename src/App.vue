@@ -79,6 +79,7 @@ ul {
 }
 
 .button__container {
+  pointer-events: none;
   position: absolute;
   align-self: flex-end;
   width: 100%;

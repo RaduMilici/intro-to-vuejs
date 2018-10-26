@@ -17,9 +17,9 @@ export default {
     return {
       DYNAMIC_CLASS_IMG_SRC,
       items: [
-        "toggle <strong>active</strong> class based on truthiness of data prop <strong>isActive</strong>",
+        "toggle <code>active</code> class based on truthiness of <code>isActive</code>",
         "toggle multiple classes by having more props in object",
-        "<strong>:class</strong> directive can co-exist with plain <strong>class</strong> attribute"
+        "<code>:class</code> directive can co-exist with plain <code>class</code> attribute"
       ]
     };
   }

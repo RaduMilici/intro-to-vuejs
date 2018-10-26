@@ -12,6 +12,9 @@ export const V_IF_IMG_SRC = "https://i.imgur.com/aediBJS.png";
 export const V_IF_TEMPLATE_IMG_SRC = "https://i.imgur.com/vMcOYKL.png";
 export const V_ELSE_TEMPLATE_IMG_SRC = "https://i.imgur.com/3uvSr8z.png";
 export const V_ELSE_IF_TEMPLATE_IMG_SRC = "https://i.imgur.com/NGTA0Qz.png";
+export const V_SHOW_IMG_SRC = "https://i.imgur.com/LfIKfIr.png";
+export const V_FOR_IMG_SRC = "https://i.imgur.com/dJWvGsS.png";
+export const V_FOR_OBJ_IMG_SRC = "https://i.imgur.com/1pM5PmT.png";
 
 export const FIRST_VUE_IFRAME_SRC = `${embed}4lr49kn1vw${params}`;
 export const COMPUTED_VUE_IFRAME_SRC = `${embed}6y2pjmqkm3${params}`;
@@ -27,6 +30,11 @@ export const DATA_STYLE_BINDING_IFRAME_SRC = `${embed}qkm85z1wvq${params}`;
 export const VIF_IFRAME_SRC = `${embed}v8y3qly53y${params}`;
 export const VIF_TEMPLATE_IFRAME_SRC = `${embed}m77q8066x8?fontsize=16&module=%2Findex.html`;
 export const VELSE_TEMPLATE_IFRAME_SRC = `${embed}k516mx8o5?fontsize=16&module=%2Findex.html`;
+export const VELSEIF_TEMPLATE_IFRAME_SRC = `${embed}y2jnwv529v?fontsize=16&module=%2Findex.html`;
+export const VFOR_IFRAME_SRC = `${embed}k5vplyp70r?fontsize=17&module=%2Findex.html`;
+export const VFOR_OBJ_IFRAME_SRC = `${embed}jn749zw2lw?fontsize=15&module=%2Findex.html`;
+export const VFOR_KEY_OBJ_IFRAME_SRC = `${embed}py11l64kk0?fontsize=15&module=%2Findex.html`;
+export const VFOR_COMPUTED_OBJ_IFRAME_SRC = `${embed}9316rkn41y?fontsize=17&module=%2Findex.html`;
 export const IFRAME_STYLE =
   "width:100%; height:600px; border:0; border-radius: 4px; overflow:hidden;";
 export const IFRAME_SANDBOX =

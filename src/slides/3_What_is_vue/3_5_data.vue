@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       items: [
-        "properties in <strong>data</strong> object added to Vue’s reactivity system",
+        "properties in <code>data</code> object added to Vue’s reactivity system",
         "when they change, the view will <q>react</q>"
       ]
     };

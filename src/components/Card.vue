@@ -86,7 +86,7 @@ export default {
   justify-content: center;
   align-items: center;
   border-radius: 5px;
-  padding: 4rem;
+  padding: 3rem;
   font-size: 3rem;
   overflow: auto;
   box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.75);

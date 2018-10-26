@@ -3,6 +3,7 @@
         <div class="webGlContainer"></div>
         <Card :small="stateIndex !== 5" :transparent="stateIndex !== 5" column :position="currentPosition" v-if="showList">
             <List :title="cardTitle" :items="currentText"/>
+            <br>
             <Button type="success" @click="onClickNext">NEXT</Button>
         </Card>
         <ReadOnlyWeb v-if="stateIndex === 3" @click="onClickNext"/>
@@ -41,24 +42,21 @@ export default {
       IE_5_URL,
       listItems: [
         [
-          "In the early days of the web, all web sites made one request to the server.",
-          "The server responded with the entire web page to be displayed."
+          "all web sites made one request to the server",
+          "server responded with the entire web page"
         ],
-        [
-          "Web servers did all the grunt work rendering dynamic web pages.",
-          " Most web-apps were closed source."
-        ],
-        "Query parameters, cookies, and request headers were just about all web developers had in their toolkit with which interactivity could be accomplished.",
+        ["servers did all the hard work", "most web-apps were closed source"],
+        "Query parameters, cookies, and headers were all web devs had for adding interactivity",
         null,
         [
-          "This all changed in 1999 when Microsoft released IE5 with XMLHttpRequest.",
-          "A means to send a request to the server and receive the response after a page was loaded.",
-          "This was a game changer."
+          "this all changed in 1999 when Microsoft released IE5 with XMLHttpRequest",
+          "sends a request to the server and receives the response <strong>after</strong> a page was loaded",
+          "this was a game changer"
         ],
         [
-          "At first, this was used to swap the contents of one <div> on the page.",
-          "This then evolved to XML to represent data that would be parsed by JavaScript in the browser.",
-          "Douglas Crockford specified the JSON format, which gained rapid following."
+          "this was used to swap the contents of one <div> on the page",
+          "then evolved to XML parsed by JavaScript in the browser",
+          "Douglas Crockford specified the JSON format, which gained rapid following"
         ]
       ],
       positions: ["right", "left", "center"],

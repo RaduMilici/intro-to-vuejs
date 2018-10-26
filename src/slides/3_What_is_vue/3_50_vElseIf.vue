@@ -17,9 +17,9 @@ export default {
     return {
       V_ELSE_IF_TEMPLATE_IMG_SRC,
       items: [
-        "it's like an <strong>else if</strong> statement",
+        "it's like an <code>else if</code> statement",
         "can be chained",
-        "must follow a <strong>v-if</strong> or a <strong>v-else-if</strong>"
+        "must follow a <code>v-if</code> or a <code>v-else-if</code>"
       ]
     };
   }

@@ -56,6 +56,17 @@ import vIfGroupCode from "./3_What_is_vue/3_47_vIf_template_code";
 import vElse from "./3_What_is_vue/3_48_velse_group";
 import vElseCode from "./3_What_is_vue/3_49_vElseCode";
 import vElseIf from "./3_What_is_vue/3_50_vElseIf";
+import vElseIfCode from "./3_What_is_vue/3_51_vElseIfCode";
+import vShow from "./3_What_is_vue/3_52_vShow";
+import listRenderingTitle from "./ChapterTitles/9_List_Rendering";
+import vFor from "./3_What_is_vue/3_54_vFor";
+import vForCode from "./3_What_is_vue/3_55_vForCode";
+import vForObjects from "./3_What_is_vue/3_55_1_vForObject";
+import vForObjectsCode from "./3_What_is_vue/3_56_vForObjectCode";
+import vForKey from "./3_What_is_vue/3_57_key";
+import vForKeyCode from "./3_What_is_vue/3_58_keyCode";
+import vForComputedCode from "./3_What_is_vue/3_59_vForComputed";
+import eventsTitle from "./ChapterTitles/10_events";
 
 const slides = [
   Welcome,
@@ -115,7 +126,18 @@ const slides = [
   vIfGroupCode,
   vElse,
   vElseCode,
-  vElseIf
+  vElseIf,
+  vElseIfCode,
+  vShow,
+  listRenderingTitle,
+  vFor,
+  vForCode,
+  vForObjects,
+  vForObjectsCode,
+  vForKey,
+  vForKeyCode,
+  vForComputedCode,
+  eventsTitle
 ];
 
 export default slides;
