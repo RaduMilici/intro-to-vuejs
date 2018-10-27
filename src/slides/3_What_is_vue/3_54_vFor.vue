@@ -18,8 +18,8 @@ export default {
       V_FOR_IMG_SRC,
       items: [
         "renders a list of elements based on an array",
-        "<code>frameworks</code> is the array",
-        "<code>name</code> is the iterated element's alias"
+        "<code>name</code> is the iterated element's alias",
+        "<code>frameworks</code> is the array"
       ]
     };
   }

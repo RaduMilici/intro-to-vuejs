@@ -67,6 +67,12 @@ import vForKey from "./3_What_is_vue/3_57_key";
 import vForKeyCode from "./3_What_is_vue/3_58_keyCode";
 import vForComputedCode from "./3_What_is_vue/3_59_vForComputed";
 import eventsTitle from "./ChapterTitles/10_events";
+import click from "./3_What_is_vue/3_60_click";
+import clickCode from "./3_What_is_vue/3_61_clickCode";
+import methodEventHandlers from "./3_What_is_vue/3_62_clickMethod";
+import clickHandlerCode from "./3_What_is_vue/3_63_clickMethodCode";
+import clickInlineHandlerCode from "./3_What_is_vue/3_64_clickInlineMethodCode";
+import eventModifiers from "./3_What_is_vue/3_65_eventModifiers";
 
 const slides = [
   Welcome,
@@ -137,7 +143,13 @@ const slides = [
   vForKey,
   vForKeyCode,
   vForComputedCode,
-  eventsTitle
+  eventsTitle,
+  click,
+  clickCode,
+  methodEventHandlers,
+  clickHandlerCode,
+  clickInlineHandlerCode,
+  eventModifiers
 ];
 
 export default slides;
