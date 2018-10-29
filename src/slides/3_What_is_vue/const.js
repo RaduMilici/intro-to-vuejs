@@ -1,6 +1,7 @@
 const params = "?fontsize=22&module=%2Findex.html";
 const embed = "https://codesandbox.io/embed/";
 export const VUE_FUNCTION_IMG_SRC = "https://i.imgur.com/Cz1axKY.png";
+export const VUE_INSTANCE_IMG_SRC = "https://i.imgur.com/lnNQzid.png";
 export const LIFECYCLE_1_IMG_SRC = "https://i.imgur.com/oUOKS4S.png";
 export const LIFECYCLE_2_IMG_SRC = "https://i.imgur.com/Z7u2PwG.png";
 export const LIFECYCLE_3_IMG_SRC = "https://i.imgur.com/bSjpHOy.png";

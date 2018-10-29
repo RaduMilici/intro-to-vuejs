@@ -18,7 +18,8 @@ export default {
         "HTML-based template syntax",
         "declaratively bind the DOM to the Vue instance’s data 🧐",
         "works great with reactivity system",
-        "figures out minimal number of components to re-render"
+        "figures out minimal number of components to re-render",
+        "<strong>interpolates</strong> between variables and <strong>{{ ... }}</strong>"
       ]
     };
   }

@@ -5,7 +5,7 @@
                 ⚠️
             </div>
         </div>
-        <div>
+        <div style="text-align: center">
             <span v-html="text"></span>
         </div>
     </div>

@@ -3,7 +3,7 @@
         <Card>
             <div>
                 <div style="text-align: center">
-                    <h2>interpolations</h2>
+                    <h2>interpolation types</h2>
                 </div>
                 <ul>
                     <li>
@@ -23,9 +23,7 @@
                     </li>
 
                     <li>
-                        raw HTML
-                        <br>
-                        (double mustaches interprets data as text, not HTML)
+                        raw HTML (default interprets as text, not HTML)
                         <br>
                         <code>
                             <span v-html="rawHtmlText"></span>

@@ -7,7 +7,10 @@
         </div>
         <div>
             <slot></slot>
-            <span v-if="text" v-html="text"></span>
+
+            <div style="text-align: center">
+                <span v-if="text" v-html="text"></span>
+            </div>
         </div>
     </div>
 </template>

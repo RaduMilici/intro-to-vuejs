@@ -20,8 +20,7 @@ export default {
         "it's like an <code>if</code> statement",
         "shows or hides content based on its value",
         "⚠️ has to be attached to a <strong>single element</strong>",
-        "events are destroyed and re-created on toggles",
-        "so are child components (more on these later)"
+        "events are destroyed and re-created on toggles"
       ]
     };
   }

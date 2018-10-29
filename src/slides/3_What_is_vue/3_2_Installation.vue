@@ -7,7 +7,7 @@
                 </div>
                 <ul>
                     <li>
-                        script include
+                        local script include
                         <br>
                         <code>
                             &lt;script src="lib/vue.js"&gt;&lt;/script&gt;
@@ -16,7 +16,7 @@
                     <li>
                         CDN
                         <br>
-                        <code style="font-size: 2.5rem">
+                        <code style="font-size: 2.2rem">
                             &lt;script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"&gt;&lt;/script&gt;
                         </code>
                     </li>
