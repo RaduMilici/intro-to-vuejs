@@ -1,6 +1,7 @@
 <template>
   <div class="app__container">
-    <component :is="currentSlide"></component>
+    <!--<component :is="currentSlide"></component>-->
+    <router-view></router-view>
     <div class="button__container">
       <Button type="success" @click="changeSlide(-1)" :style="showButton('left')">&larr;</Button>
       <Button type="success" @click="changeSlide(1)" :style="showButton('right')">&rarr;</Button>
@@ -16,15 +17,15 @@ export default {
   data() {
     return {
       slides,
-      slideIndex: slides.length - 1
+      slideIndex: null
     };
   },
   components: {
     Button
   },
   computed: {
-    currentSlide() {
-      return this.slides[this.slideIndex];
+    currentSlideNum() {
+      return parseInt(this.$route.path.substr(1));
     }
   },
   methods: {
@@ -32,6 +33,7 @@ export default {
       const index = this.slideIndex + num;
       if (index >= 0 && index < this.slides.length) {
         this.slideIndex = index;
+        this.$router.push(`/${index}`);
       }
     },
     showButton(position) {
@@ -43,6 +45,17 @@ export default {
           ? { visibility: "hidden" }
           : null;
       }
+    }
+  },
+  mounted() {
+    this.slideIndex = this.currentSlideNum;
+  },
+  watch: {
+    $route: {
+      handler: function() {
+        this.slideIndex = this.currentSlideNum;
+      },
+      deep: true
     }
   }
 };
