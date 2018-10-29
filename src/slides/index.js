@@ -78,6 +78,14 @@ import eventModifiersCode from "./3_What_is_vue/3_66_eventModifiersCode";
 import keyModifiers from "./3_What_is_vue/3_67_keyModifiers";
 import keyModifiersCode from "./3_What_is_vue/3_68_keyModifiersCode";
 import dataBindTitle from "./ChapterTitles/11_data_binding";
+import dataBind from "./3_What_is_vue/3_69_twoWayData";
+import dataBindingCode from "./3_What_is_vue/3_70_dataBindingCode";
+import dataBindingCode2 from "./3_What_is_vue/3_71_dataBindingCode2";
+import componentsTitle from "./ChapterTitles/12_component_basics";
+import componentsBasic from "./3_What_is_vue/3_72_componentsBasic";
+import globalComponent from "./3_What_is_vue/3_73_creatingGlobalComponent";
+import dataFunctionWarn from "./3_What_is_vue/3_74_data_function_warn";
+import simpleComponentCode from "./3_What_is_vue/3_75_simpleComponentCode";
 
 const slides = [
   Welcome,
@@ -159,7 +167,15 @@ const slides = [
   eventModifiersCode,
   keyModifiers,
   keyModifiersCode,
-  dataBindTitle
+  dataBindTitle,
+  dataBind,
+  dataBindingCode,
+  dataBindingCode2,
+  componentsTitle,
+  componentsBasic,
+  globalComponent,
+  dataFunctionWarn,
+  simpleComponentCode
 ];
 
 export default slides;

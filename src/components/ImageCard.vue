@@ -45,6 +45,6 @@ img {
 h1 {
   font-size: 5rem;
   font-weight: 400;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 </style>

@@ -48,7 +48,8 @@ export default {
     }
   },
   mounted() {
-    this.slideIndex = this.currentSlideNum;
+    this.slideIndex = this.currentSlideNum || 0;
+    this.$router.push(`/${this.slideIndex}`);
   },
   watch: {
     $route: {

@@ -18,6 +18,9 @@ export const V_FOR_OBJ_IMG_SRC = "https://i.imgur.com/1pM5PmT.png";
 export const CLICK_HTML_IMG_SRC = "https://i.imgur.com/nL6eeC0.png";
 export const CLICK_METHOD_IMG_SRC = "https://i.imgur.com/9dnDHWQ.png";
 export const EVENT_MOD_IMG_SRC = "https://i.imgur.com/Kq0YC4m.png";
+export const BINDING_IMG_SRC = "https://i.imgur.com/tdMpqti.png";
+export const COMPONENTS_BASIC_IMG_SRC = "https://i.imgur.com/zaQDOQJ.png";
+export const FIRST_COMPONENT_IMG_SRC = "https://i.imgur.com/NihrMSi.png";
 
 export const FIRST_VUE_IFRAME_SRC = `${embed}4lr49kn1vw${params}`;
 export const COMPUTED_VUE_IFRAME_SRC = `${embed}6y2pjmqkm3${params}`;
@@ -43,6 +46,10 @@ export const CLICK_HANDLER_IFRAME_SRC = `${embed}9ornym9kmw?fontsize=17&module=%
 export const CLICK_INLINE_HANDLER_IFRAME_SRC = `${embed}jl3xqlyyx5?fontsize=17&module=%2Findex.html`;
 export const EVENT_MOD_IFRAME_SRC = `${embed}v8v9r73nj5?view=editor&fontsize=17&module=%2Findex.html`;
 export const KEY_MODS_IFRAME_SRC = `${embed}zxzkokjjy4?fontsize=19&module=%2Findex.html`;
+export const DATABIND_IFRAME_SRC = `${embed}6y6k98lvvr?fontsize=14&module=%2Findex.html`;
+export const DATABIND2_IFRAME_SRC = `${embed}p78wm80vvq?fontsize=14&module=%2Findex.html`;
+export const SIMPLE_COMPONENT_IFRAME_SRC = `${embed}nr7z34345j?fontsize=18&module=%2Findex.html`;
+
 export const IFRAME_STYLE =
   "width:100%; height:550px; border:0; border-radius: 4px; overflow:hidden;";
 export const IFRAME_SANDBOX =
