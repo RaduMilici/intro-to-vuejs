@@ -72,7 +72,12 @@ import clickCode from "./3_What_is_vue/3_61_clickCode";
 import methodEventHandlers from "./3_What_is_vue/3_62_clickMethod";
 import clickHandlerCode from "./3_What_is_vue/3_63_clickMethodCode";
 import clickInlineHandlerCode from "./3_What_is_vue/3_64_clickInlineMethodCode";
+import eventModifiersList from "./3_What_is_vue/3_65_0_eventModifiersList";
 import eventModifiers from "./3_What_is_vue/3_65_eventModifiers";
+import eventModifiersCode from "./3_What_is_vue/3_66_eventModifiersCode";
+import keyModifiers from "./3_What_is_vue/3_67_keyModifiers";
+import keyModifiersCode from "./3_What_is_vue/3_68_keyModifiersCode";
+import dataBindTitle from "./ChapterTitles/11_data_binding";
 
 const slides = [
   Welcome,
@@ -149,7 +154,12 @@ const slides = [
   methodEventHandlers,
   clickHandlerCode,
   clickInlineHandlerCode,
-  eventModifiers
+  eventModifiersList,
+  eventModifiers,
+  eventModifiersCode,
+  keyModifiers,
+  keyModifiersCode,
+  dataBindTitle
 ];
 
 export default slides;

@@ -41,6 +41,8 @@ export const VFOR_COMPUTED_OBJ_IFRAME_SRC = `${embed}9316rkn41y?fontsize=17&modu
 export const CLICK_IFRAME_SRC = `${embed}q80m9zq3j?fontsize=17&module=%2Findex.html`;
 export const CLICK_HANDLER_IFRAME_SRC = `${embed}9ornym9kmw?fontsize=17&module=%2Findex.html`;
 export const CLICK_INLINE_HANDLER_IFRAME_SRC = `${embed}jl3xqlyyx5?fontsize=17&module=%2Findex.html`;
+export const EVENT_MOD_IFRAME_SRC = `${embed}v8v9r73nj5?view=editor&fontsize=17&module=%2Findex.html`;
+export const KEY_MODS_IFRAME_SRC = `${embed}zxzkokjjy4?fontsize=19&module=%2Findex.html`;
 export const IFRAME_STYLE =
   "width:100%; height:550px; border:0; border-radius: 4px; overflow:hidden;";
 export const IFRAME_SANDBOX =

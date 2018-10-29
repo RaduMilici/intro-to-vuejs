@@ -8,7 +8,7 @@
 import { ImageCard, List } from "../../components";
 import { EVENT_MOD_IMG_SRC } from "./const";
 export default {
-  name: "methodEventHandlers",
+  name: "eventModifiers",
   components: {
     ImageCard,
     List
@@ -17,7 +17,7 @@ export default {
     return {
       EVENT_MOD_IMG_SRC,
       items: [
-        "common to want <code>event.preventDefault()</code>",
+        "can be chained",
         "<code>event</code> is passed to methods, could be done there 🤔",
         "methods are purely logic; not dealing with event details"
       ]
