@@ -86,6 +86,10 @@ import componentsBasic from "./3_What_is_vue/3_72_componentsBasic";
 import globalComponent from "./3_What_is_vue/3_73_creatingGlobalComponent";
 import dataFunctionWarn from "./3_What_is_vue/3_74_data_function_warn";
 import simpleComponentCode from "./3_What_is_vue/3_75_simpleComponentCode";
+import simpleComponentExternalTemplateCode from "./3_What_is_vue/3_76_simpleComponentCodeTemplate";
+import singleRootWarn from "./3_What_is_vue/3_77_singleRoot_warn";
+import propsBasic from "./3_What_is_vue/3_78_propsBasic";
+import propsInComponentBasic from "./3_What_is_vue/3_79_propsInComponentBasic";
 
 const slides = [
   Welcome,
@@ -175,7 +179,11 @@ const slides = [
   componentsBasic,
   globalComponent,
   dataFunctionWarn,
-  simpleComponentCode
+  simpleComponentCode,
+  simpleComponentExternalTemplateCode,
+  singleRootWarn,
+  propsBasic,
+  propsInComponentBasic
 ];
 
 export default slides;
