@@ -17,7 +17,8 @@ export default {
     return {
       PROPS_BASIC_IMG_SRC,
       items: [
-        "components will <q>react</q> to custom data",
+        "components should be customizable",
+        "can pass data for them to process",
         "useful when you don’t know what you’re to render (fetch)"
       ]
     };

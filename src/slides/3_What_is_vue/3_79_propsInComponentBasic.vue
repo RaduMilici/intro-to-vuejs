@@ -18,8 +18,7 @@ export default {
       PROPS_IN_COMPONENT_BASIC_IMG_SRC,
       items: [
         "custom attributes defined inside a component",
-        "value passed as prop &rArr; becomes property of component",
-        "useful when you don’t know what you’re to render (fetch)"
+        "value passed as prop &rArr; becomes property of component"
       ]
     };
   }

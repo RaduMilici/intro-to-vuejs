@@ -54,6 +54,9 @@ export const DATABIND_IFRAME_SRC = `${embed}6y6k98lvvr?fontsize=14&module=%2Find
 export const DATABIND2_IFRAME_SRC = `${embed}p78wm80vvq?fontsize=14&module=%2Findex.html`;
 export const SIMPLE_COMPONENT_IFRAME_SRC = `${embed}nr7z34345j?fontsize=18&module=%2Findex.html`;
 export const SIMPLE_COMPONENT_EXTERNAL_TEMPLATE_IFRAME_SRC = `${embed}3rl36o1jlp?fontsize=18&module=%2Findex.html`;
+export const PROPS_BASIC_IFRAME_SRC = `${embed}6zmvnnz283?fontsize=18&module=%2Findex.html`;
+export const PROPS_BONUS_BASIC_IFRAME_SRC = `${embed}xlqymwqz3o?fontsize=18&module=%2Findex.html`;
+export const PROPS_BONUS2_BASIC_IFRAME_SRC = `${embed}l541r7vnvm?fontsize=18&module=%2Findex.html`;
 
 export const IFRAME_STYLE =
   "width:100%; height:550px; border:0; border-radius: 4px; overflow:hidden;";
