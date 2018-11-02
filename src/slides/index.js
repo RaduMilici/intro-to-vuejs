@@ -93,6 +93,13 @@ import propsInComponentBasic from "./3_What_is_vue/3_79_propsInComponentBasic";
 import propsCode from "./3_What_is_vue/3_80_propsCode";
 import propsBonusCode from "./3_What_is_vue/3_81_propsBonusCode";
 import propsBonusCode2 from "./3_What_is_vue/3_82_propsBonus2Code";
+import emitBasic from "./3_What_is_vue/3_83_emitBasic";
+import atEmitBasic from "./3_What_is_vue/3_84_atEmitBasic";
+import emitBasicCode from "./3_What_is_vue/3_85_emitBasicCode";
+import emitArgumentCode from "./3_What_is_vue/3_86_emitArgumentCode";
+import slotBasics from "./3_What_is_vue/3_87_slotsBasic";
+import slotBasicsCode from "./3_What_is_vue/3_88_slotsBasicCode";
+import dynamicComponentBasic from "./3_What_is_vue/3_89_dynamicComponentBasic";
 
 const slides = [
   Welcome,
@@ -189,7 +196,14 @@ const slides = [
   propsInComponentBasic,
   propsCode,
   propsBonusCode,
-  propsBonusCode2
+  propsBonusCode2,
+  emitBasic,
+  atEmitBasic,
+  emitBasicCode,
+  emitArgumentCode,
+  slotBasics,
+  slotBasicsCode,
+  dynamicComponentBasic
 ];
 
 export default slides;

@@ -8,7 +8,7 @@ const APP_3D_SETTINGS = {
   renderer: {
     width: window.innerWidth,
     height: window.innerHeight,
-    antialias: false
+    antialias: true
   }
 };
 

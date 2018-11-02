@@ -25,6 +25,11 @@ export const FIRST_COMPONENT_IMG_SRC = "https://i.imgur.com/NihrMSi.png";
 export const PROPS_BASIC_IMG_SRC = "https://i.imgur.com/0HxM3Ju.png";
 export const PROPS_IN_COMPONENT_BASIC_IMG_SRC =
   "https://i.imgur.com/2NrT2O6.png";
+export const EMIT_BASIC_IMG_SRC = "https://i.imgur.com/EmQbeQY.png";
+export const AT_EMIT_BASIC_IMG_SRC = "https://i.imgur.com/oRn7kob.png";
+export const SLOT_BASIC_IMG_SRC = "https://i.imgur.com/bSpOaBL.png";
+export const DYNAMIC_COMPONENT_BASIC_IMG_SRC =
+  "https://i.imgur.com/p7baWCY.png";
 
 export const FIRST_VUE_IFRAME_SRC = `${embed}4lr49kn1vw${params}`;
 export const COMPUTED_VUE_IFRAME_SRC = `${embed}6y2pjmqkm3${params}`;
@@ -57,6 +62,9 @@ export const SIMPLE_COMPONENT_EXTERNAL_TEMPLATE_IFRAME_SRC = `${embed}3rl36o1jlp
 export const PROPS_BASIC_IFRAME_SRC = `${embed}6zmvnnz283?fontsize=18&module=%2Findex.html`;
 export const PROPS_BONUS_BASIC_IFRAME_SRC = `${embed}xlqymwqz3o?fontsize=18&module=%2Findex.html`;
 export const PROPS_BONUS2_BASIC_IFRAME_SRC = `${embed}l541r7vnvm?fontsize=18&module=%2Findex.html`;
+export const EMIT_BASIC_IFRAME_SRC = `${embed}o5kpwqm176?fontsize=14&module=%2Findex.html`;
+export const EMIT_ARGUMENT_IFRAME_SRC = `${embed}2v3o422p3r?fontsize=14&module=%2Findex.html`;
+export const SLOTS_BASIC_IFRAME_SRC = `${embed}n39mqnvp64?fontsize=14&module=%2Findex.html`;
 
 export const IFRAME_STYLE =
   "width:100%; height:550px; border:0; border-radius: 4px; overflow:hidden;";
