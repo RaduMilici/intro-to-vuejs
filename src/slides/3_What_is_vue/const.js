@@ -30,6 +30,7 @@ export const AT_EMIT_BASIC_IMG_SRC = "https://i.imgur.com/oRn7kob.png";
 export const SLOT_BASIC_IMG_SRC = "https://i.imgur.com/bSpOaBL.png";
 export const DYNAMIC_COMPONENT_BASIC_IMG_SRC =
   "https://i.imgur.com/p7baWCY.png";
+export const COLON_INTERPOLATION_IMG_SRC = "https://i.imgur.com/cCc8Wfy.png";
 
 export const FIRST_VUE_IFRAME_SRC = `${embed}4lr49kn1vw${params}`;
 export const COMPUTED_VUE_IFRAME_SRC = `${embed}6y2pjmqkm3${params}`;

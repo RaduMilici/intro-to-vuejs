@@ -35,6 +35,7 @@ import InterpolationsCode from "./3_What_is_vue/3_19_2_interpolation_code";
 import xssAttack from "./3_What_is_vue/3_20_xss_attack";
 import ClassStyleTitle from "./ChapterTitles/7_class_style";
 import ClassStyle from "./3_What_is_vue/3_21_classStyle";
+import colonInterpolation from "./3_What_is_vue/3_22_0_colonInterpolation";
 import ObjectBinding from "./3_What_is_vue/3_22_class_binding";
 import ObjectBindingCode from "./3_What_is_vue/3_33_class_binding_code";
 import InlineTooVerbose from "./3_What_is_vue/3_34_1_inline_class_too_verbose";
@@ -140,6 +141,7 @@ const slides = [
   ClassStyleTitle,
   ClassStyle,
   ObjectBinding,
+  colonInterpolation,
   ObjectBindingCode,
   InlineTooVerbose,
   ComputedBindingCode,
