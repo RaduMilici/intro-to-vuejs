@@ -94,6 +94,7 @@ import propsInComponentBasic from "./3_What_is_vue/3_79_propsInComponentBasic";
 import propsCode from "./3_What_is_vue/3_80_propsCode";
 import propsBonusCode from "./3_What_is_vue/3_81_propsBonusCode";
 import propsBonusCode2 from "./3_What_is_vue/3_82_propsBonus2Code";
+import oneWayData from "./3_What_is_vue/3_82_0_props_one_way";
 import emitBasic from "./3_What_is_vue/3_83_emitBasic";
 import atEmitBasic from "./3_What_is_vue/3_84_atEmitBasic";
 import emitBasicCode from "./3_What_is_vue/3_85_emitBasicCode";
@@ -101,6 +102,11 @@ import emitArgumentCode from "./3_What_is_vue/3_86_emitArgumentCode";
 import slotBasics from "./3_What_is_vue/3_87_slotsBasic";
 import slotBasicsCode from "./3_What_is_vue/3_88_slotsBasicCode";
 import dynamicComponentBasic from "./3_What_is_vue/3_89_dynamicComponentBasic";
+import dynamicComponentCode from "./3_What_is_vue/3_90_DynamicComponentCode";
+import propValidation from "./3_What_is_vue/3_82_1_props_validation";
+import propValidationCode from "./3_What_is_vue/3_82_2_propsValidationCode";
+import slotNamedCode from "./3_What_is_vue/3_88_1_slotsNamedCode";
+
 
 const slides = [
   Welcome,
@@ -199,13 +205,18 @@ const slides = [
   propsCode,
   propsBonusCode,
   propsBonusCode2,
+  oneWayData,
+  propValidation,
+  propValidationCode,
   emitBasic,
   atEmitBasic,
   emitBasicCode,
   emitArgumentCode,
   slotBasics,
   slotBasicsCode,
-  dynamicComponentBasic
+  slotNamedCode,
+  dynamicComponentBasic,
+  dynamicComponentCode
 ];
 
 export default slides;
