@@ -1,5 +1,7 @@
 # intro-to-vuejs
 
+## hands on practice here: https://github.com/RaduMilici/intro-to-vuejs-hands-on
+
 ## Project setup
 ```
 npm install
